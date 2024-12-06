@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('background-image.jpg'); /* Replace 'background-image-url' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #fff; /* Adjust text color for better contrast with background */
+}
+
+#data-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+p {
+    font-size: 1.2em;
+}
