@@ -2,14 +2,22 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-image: url('background-image.jpg'); /* Replace 'background-image-url' with the path to your background image */
-    background-size: cover;
-    background-position: center;
+    background-clip: cover;
+    height: 100vh;
     color: #333;
 }
 
 h1 {
     margin-top: 20px;
     color: #fff; /* Adjust text color for better contrast with background */
+    font-size: 3em;
+
+}
+h2 {
+    margin-top: 20px;
+    color: #fff; /* Adjust text color for better contrast with background */
+    font-size: 1.9em;
+
 }
 
 #data-container {
@@ -19,8 +27,14 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.9em;
 }
