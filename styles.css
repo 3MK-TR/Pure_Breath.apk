@@ -84,12 +84,17 @@ p {
 }
 
 .qr-code a {
+    margin: 0 5px;
     margin-top: 10px;
     font-size: 1.2em;
     color: #007BFF;
     text-decoration: none;
     transition: color 0.3s ease;
 }
+
+.qr-code a:before { 
+    content: " • "; 
+    margin-left: 5px; }
 
 .qr-code a:hover {
     color: #0056b3;
