@@ -1,2 +1,2 @@
-# PureBreath
-Pure Breathe is an air quality monitoring system that measures temperature, humidity, gases (MQ2, MQ135), and air dust (GP2Y1014AU0F). Using an ESP32S, it sends real-time data to ThingSpeak for visualization. With a custom web interface, it empowers users to monitor air quality and promote healthier environments.
+# Pure Breath Apk
+Pure Breath Apk is a web that attached to owner application to open our site on the customers phone to provide them with the product readings
